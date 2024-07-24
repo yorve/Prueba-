@@ -1,0 +1,32 @@
+
+1=='Gino'
+2=='Victor'
+3=='Raúl'
+4=='Franco'
+5=='Carlos'
+6=='Yonathan'
+
+import random
+
+
+pregunta = input('Haz tu pregunta:')
+
+if pregunta.endswith ('?'):
+    
+else:
+    print ('Pregunta bien CTM!')
+    
+num = random.randint(1,6)
+
+if num == 1:
+    print ('Gino')
+elif num == 2:
+    print ('Victor')
+elif num == 3:
+    print ('Raúl')
+elif num == 4:
+    print ('Franco')
+elif num == 5:
+    print ('Carlos')
+else:
+    print ('Yonathan')
